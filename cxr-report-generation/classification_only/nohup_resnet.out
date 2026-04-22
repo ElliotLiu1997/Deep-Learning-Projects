@@ -1,0 +1,84 @@
+nohup: ignoring input
+============================================================
+[resnet] Training
+out_dir=/N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet
+============================================================
+Using CUDA device: cuda:0 | DataParallel GPUs: [0, 1]
+Using pos_weight: min=1.1364, mean=16.2234, max=28.5072
+Num classes: 13
+Train samples: 2036 | Val samples: 436
+Epoch 1/25 | train_loss=1.2984 | val_loss=1.3242 | val_macro_f1_valid=0.1177 | val_macro_f1_all=0.1177 | val_micro_f1=0.1281 | val_macro_auc=0.5283161530441025
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.1177)
+Epoch 2/25 | train_loss=1.2732 | val_loss=1.3106 | val_macro_f1_valid=0.1291 | val_macro_f1_all=0.1291 | val_micro_f1=0.1404 | val_macro_auc=0.5422696819418741
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.1291)
+Backbone unfrozen at epoch 3. Using backbone_lr=1e-05
+Epoch 3/25 | train_loss=1.2587 | val_loss=1.2906 | val_macro_f1_valid=0.1580 | val_macro_f1_all=0.1580 | val_micro_f1=0.1628 | val_macro_auc=0.5631333848082538
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.1580)
+Epoch 4/25 | train_loss=1.2278 | val_loss=1.2585 | val_macro_f1_valid=0.1740 | val_macro_f1_all=0.1740 | val_micro_f1=0.1907 | val_macro_auc=0.5851640543675173
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.1740)
+Epoch 5/25 | train_loss=1.2021 | val_loss=1.2407 | val_macro_f1_valid=0.1970 | val_macro_f1_all=0.1970 | val_micro_f1=0.2225 | val_macro_auc=0.6133285651997624
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.1970)
+Epoch 6/25 | train_loss=1.1819 | val_loss=1.2225 | val_macro_f1_valid=0.2073 | val_macro_f1_all=0.2073 | val_micro_f1=0.2466 | val_macro_auc=0.6390710397726421
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2073)
+Epoch 7/25 | train_loss=1.1561 | val_loss=1.1999 | val_macro_f1_valid=0.2272 | val_macro_f1_all=0.2272 | val_micro_f1=0.2736 | val_macro_auc=0.6586411873778334
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2272)
+Epoch 8/25 | train_loss=1.1238 | val_loss=1.1821 | val_macro_f1_valid=0.2362 | val_macro_f1_all=0.2362 | val_micro_f1=0.2735 | val_macro_auc=0.6717271236371959
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2362)
+Epoch 9/25 | train_loss=1.1030 | val_loss=1.1643 | val_macro_f1_valid=0.2416 | val_macro_f1_all=0.2416 | val_micro_f1=0.2903 | val_macro_auc=0.6837684124909978
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2416)
+Epoch 10/25 | train_loss=1.0789 | val_loss=1.1497 | val_macro_f1_valid=0.2517 | val_macro_f1_all=0.2517 | val_micro_f1=0.3017 | val_macro_auc=0.6963403777663556
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2517)
+Epoch 11/25 | train_loss=1.0501 | val_loss=1.1379 | val_macro_f1_valid=0.2487 | val_macro_f1_all=0.2487 | val_micro_f1=0.2915 | val_macro_auc=0.7037789076745503
+No macro F1 improvement this epoch (patience_counter=1/5).
+Epoch 12/25 | train_loss=1.0276 | val_loss=1.1237 | val_macro_f1_valid=0.2584 | val_macro_f1_all=0.2584 | val_micro_f1=0.3061 | val_macro_auc=0.7113286108806472
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2584)
+Epoch 13/25 | train_loss=1.0084 | val_loss=1.1118 | val_macro_f1_valid=0.2665 | val_macro_f1_all=0.2665 | val_micro_f1=0.3167 | val_macro_auc=0.7190284773931906
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2665)
+Epoch 14/25 | train_loss=0.9916 | val_loss=1.1021 | val_macro_f1_valid=0.2645 | val_macro_f1_all=0.2645 | val_micro_f1=0.3146 | val_macro_auc=0.7214700092814442
+No macro F1 improvement this epoch (patience_counter=1/5).
+Epoch 15/25 | train_loss=0.9737 | val_loss=1.0977 | val_macro_f1_valid=0.2616 | val_macro_f1_all=0.2616 | val_micro_f1=0.3125 | val_macro_auc=0.7255250959085802
+No macro F1 improvement this epoch (patience_counter=2/5).
+Epoch 16/25 | train_loss=0.9608 | val_loss=1.0955 | val_macro_f1_valid=0.2651 | val_macro_f1_all=0.2651 | val_micro_f1=0.3221 | val_macro_auc=0.7280442209244247
+No macro F1 improvement this epoch (patience_counter=3/5).
+Epoch 17/25 | train_loss=0.9482 | val_loss=1.0915 | val_macro_f1_valid=0.2678 | val_macro_f1_all=0.2678 | val_micro_f1=0.3208 | val_macro_auc=0.7296743964088491
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2678)
+Epoch 18/25 | train_loss=0.9438 | val_loss=1.0942 | val_macro_f1_valid=0.2723 | val_macro_f1_all=0.2723 | val_micro_f1=0.3308 | val_macro_auc=0.7303302053240659
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2723)
+Epoch 19/25 | train_loss=0.9347 | val_loss=1.0885 | val_macro_f1_valid=0.2751 | val_macro_f1_all=0.2751 | val_micro_f1=0.3355 | val_macro_auc=0.7340076119830967
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2751)
+Epoch 20/25 | train_loss=0.9223 | val_loss=1.0902 | val_macro_f1_valid=0.2755 | val_macro_f1_all=0.2755 | val_micro_f1=0.3378 | val_macro_auc=0.7341884278862701
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2755)
+Epoch 21/25 | train_loss=0.9175 | val_loss=1.0892 | val_macro_f1_valid=0.2756 | val_macro_f1_all=0.2756 | val_micro_f1=0.3350 | val_macro_auc=0.7355133954074768
+No macro F1 improvement this epoch (patience_counter=1/5).
+Epoch 22/25 | train_loss=0.9093 | val_loss=1.0835 | val_macro_f1_valid=0.2751 | val_macro_f1_all=0.2751 | val_micro_f1=0.3352 | val_macro_auc=0.737757297312522
+No macro F1 improvement this epoch (patience_counter=2/5).
+Epoch 23/25 | train_loss=0.9123 | val_loss=1.0825 | val_macro_f1_valid=0.2759 | val_macro_f1_all=0.2759 | val_micro_f1=0.3340 | val_macro_auc=0.7384715372591442
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2759)
+Epoch 24/25 | train_loss=0.9093 | val_loss=1.0804 | val_macro_f1_valid=0.2732 | val_macro_f1_all=0.2732 | val_micro_f1=0.3311 | val_macro_auc=0.7397461340379918
+No macro F1 improvement this epoch (patience_counter=1/5).
+Epoch 25/25 | train_loss=0.8982 | val_loss=1.0821 | val_macro_f1_valid=0.2767 | val_macro_f1_all=0.2767 | val_micro_f1=0.3360 | val_macro_auc=0.7404720197554173
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/best_model.pt (macro_f1_valid=0.2767)
+Saved training history CSV to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/train_history.csv
+Saved loss plot to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/train_loss.png
+Training complete. Best val macro F1 (valid classes): 0.2767
+============================================================
+[resnet] Evaluation (test only)
+============================================================
+/N/slate/jl370/Deep Learning/Final/classification_only/eval.py:234: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint_path, map_location=device)
+Using CUDA device: cuda:0 | DataParallel GPUs: [0, 1]
+Threshold search on val complete: best_threshold=0.5500, best_val_macro_f1_valid=0.2878
+Saved threshold search CSV to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/threshold_search.csv
+Split: test
+Threshold: 0.5500
+Loss: 0.5676
+Macro F1 (valid classes): 0.2914
+Macro F1 (all classes): 0.2914
+Valid class count: 13
+Micro F1: 0.3589
+Per-class F1: [0.6666666865348816, 0.5476190447807312, 0.3707317113876343, 0.32592591643333435, 0.4736842215061188, 0.0824742242693901, 0.2752293646335602, 0.1463414579629898, 0.09638553857803345, 0.20652173459529877, 0.22093023359775543, 0.21276596188545227, 0.1627907007932663]
+Macro AUC: 0.742556803554639
+Per-class AUC: [0.7950643776824036, 0.9106393606393607, 0.7669681104236078, 0.8793223891023402, 0.7558517785163709, 0.6377697841726618, 0.8136911281489594, 0.7550475059382422, 0.5250700280112045, 0.6191891891891892, 0.6882206977083638, 0.68385507706976, 0.8225490196078431]
+Saved eval metrics CSV to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/eval_metrics.csv
+Saved per-class metrics CSV to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet/eval_per_class_metrics.csv
+Done. Results saved under: /N/slate/jl370/Deep Learning/Final/classification_only/outputs/resnet

@@ -1,0 +1,74 @@
+nohup: ignoring input
+============================================================
+[vit] Training
+out_dir=/N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit
+============================================================
+Using CUDA device: cuda:0 | DataParallel GPUs: [0, 1]
+Using pos_weight: min=1.1364, mean=16.2234, max=28.5072
+Num classes: 13
+Train samples: 2036 | Val samples: 436
+Epoch 1/20 | train_loss=1.2669 | val_loss=1.2706 | val_macro_f1_valid=0.1510 | val_macro_f1_all=0.1510 | val_micro_f1=0.1571 | val_macro_auc=0.5283032773543876
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.1510)
+Epoch 2/20 | train_loss=1.2401 | val_loss=1.2533 | val_macro_f1_valid=0.1672 | val_macro_f1_all=0.1672 | val_micro_f1=0.1823 | val_macro_auc=0.5563989941004635
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.1672)
+Epoch 3/20 | train_loss=1.2296 | val_loss=1.2421 | val_macro_f1_valid=0.1807 | val_macro_f1_all=0.1807 | val_micro_f1=0.2155 | val_macro_auc=0.5828306726557447
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.1807)
+Epoch 4/20 | train_loss=1.2165 | val_loss=1.2326 | val_macro_f1_valid=0.1958 | val_macro_f1_all=0.1958 | val_micro_f1=0.2379 | val_macro_auc=0.6057343486133548
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.1958)
+Epoch 5/20 | train_loss=1.2050 | val_loss=1.2240 | val_macro_f1_valid=0.2011 | val_macro_f1_all=0.2011 | val_micro_f1=0.2465 | val_macro_auc=0.624311933283547
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2011)
+Backbone unfrozen at epoch 6. Using backbone_lr=1e-06
+Epoch 6/20 | train_loss=1.1943 | val_loss=1.2095 | val_macro_f1_valid=0.2102 | val_macro_f1_all=0.2102 | val_micro_f1=0.2671 | val_macro_auc=0.6512352048654901
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2102)
+Epoch 7/20 | train_loss=1.1745 | val_loss=1.1966 | val_macro_f1_valid=0.2221 | val_macro_f1_all=0.2221 | val_micro_f1=0.2869 | val_macro_auc=0.6720554788858865
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2221)
+Epoch 8/20 | train_loss=1.1579 | val_loss=1.1827 | val_macro_f1_valid=0.2389 | val_macro_f1_all=0.2389 | val_micro_f1=0.3094 | val_macro_auc=0.6861287014878481
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2389)
+Epoch 9/20 | train_loss=1.1402 | val_loss=1.1709 | val_macro_f1_valid=0.2420 | val_macro_f1_all=0.2420 | val_micro_f1=0.3088 | val_macro_auc=0.6965132268853306
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2420)
+Epoch 10/20 | train_loss=1.1259 | val_loss=1.1605 | val_macro_f1_valid=0.2488 | val_macro_f1_all=0.2488 | val_micro_f1=0.3254 | val_macro_auc=0.7031029853836741
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2488)
+Epoch 11/20 | train_loss=1.1097 | val_loss=1.1469 | val_macro_f1_valid=0.2593 | val_macro_f1_all=0.2593 | val_micro_f1=0.3299 | val_macro_auc=0.7086520416886193
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2593)
+Epoch 12/20 | train_loss=1.0951 | val_loss=1.1360 | val_macro_f1_valid=0.2632 | val_macro_f1_all=0.2632 | val_micro_f1=0.3303 | val_macro_auc=0.7127478917306593
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2632)
+Epoch 13/20 | train_loss=1.0822 | val_loss=1.1254 | val_macro_f1_valid=0.2580 | val_macro_f1_all=0.2580 | val_micro_f1=0.3308 | val_macro_auc=0.7164902119568735
+No macro F1 improvement this epoch (patience_counter=1/4).
+Epoch 14/20 | train_loss=1.0649 | val_loss=1.1183 | val_macro_f1_valid=0.2614 | val_macro_f1_all=0.2614 | val_micro_f1=0.3359 | val_macro_auc=0.7203171112197667
+No macro F1 improvement this epoch (patience_counter=2/4).
+Epoch 15/20 | train_loss=1.0548 | val_loss=1.1099 | val_macro_f1_valid=0.2660 | val_macro_f1_all=0.2660 | val_micro_f1=0.3307 | val_macro_auc=0.7241727074967499
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2660)
+Epoch 16/20 | train_loss=1.0488 | val_loss=1.1058 | val_macro_f1_valid=0.2779 | val_macro_f1_all=0.2779 | val_micro_f1=0.3558 | val_macro_auc=0.7261734032636367
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2779)
+Epoch 17/20 | train_loss=1.0415 | val_loss=1.0976 | val_macro_f1_valid=0.2728 | val_macro_f1_all=0.2728 | val_micro_f1=0.3412 | val_macro_auc=0.7281610611044768
+No macro F1 improvement this epoch (patience_counter=1/4).
+Epoch 18/20 | train_loss=1.0237 | val_loss=1.0937 | val_macro_f1_valid=0.2784 | val_macro_f1_all=0.2784 | val_micro_f1=0.3517 | val_macro_auc=0.7303295507833856
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2784)
+Epoch 19/20 | train_loss=1.0117 | val_loss=1.0918 | val_macro_f1_valid=0.2846 | val_macro_f1_all=0.2846 | val_micro_f1=0.3653 | val_macro_auc=0.7323487695254353
+Saved new best model to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/best_model.pt (macro_f1_valid=0.2846)
+Epoch 20/20 | train_loss=1.0110 | val_loss=1.0836 | val_macro_f1_valid=0.2804 | val_macro_f1_all=0.2804 | val_micro_f1=0.3478 | val_macro_auc=0.7356739089034985
+No macro F1 improvement this epoch (patience_counter=1/4).
+Saved training history CSV to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/train_history.csv
+Saved loss plot to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/train_loss.png
+Training complete. Best val macro F1 (valid classes): 0.2846
+============================================================
+[vit] Evaluation (test only)
+============================================================
+/N/slate/jl370/Deep Learning/Final/classification_only/eval.py:234: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(checkpoint_path, map_location=device)
+Using CUDA device: cuda:0 | DataParallel GPUs: [0, 1]
+Threshold search on val complete: best_threshold=0.5000, best_val_macro_f1_valid=0.2846
+Saved threshold search CSV to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/threshold_search.csv
+Split: test
+Threshold: 0.5000
+Loss: 0.5464
+Macro F1 (valid classes): 0.2887
+Macro F1 (all classes): 0.2887
+Valid class count: 13
+Micro F1: 0.3607
+Per-class F1: [0.7248322367668152, 0.5090909004211426, 0.3645833432674408, 0.375, 0.44545453786849976, 0.09615384787321091, 0.2442748099565506, 0.12030075490474701, 0.12800000607967377, 0.20000000298023224, 0.21686747670173645, 0.15094339847564697, 0.1782178282737732]
+Macro AUC: 0.7268406793563732
+Per-class AUC: [0.796894723554658, 0.8736263736263736, 0.7311280342693955, 0.8979217603911981, 0.7455625486174953, 0.515347721822542, 0.7904709748083243, 0.7281769596199525, 0.69593837535014, 0.6264189189189189, 0.6586629689096483, 0.6368186874304783, 0.7519607843137255]
+Saved eval metrics CSV to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/eval_metrics.csv
+Saved per-class metrics CSV to /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit/eval_per_class_metrics.csv
+Done. Results saved under: /N/slate/jl370/Deep Learning/Final/classification_only/outputs/vit
